@@ -1,0 +1,55 @@
+.container {
+  max-width: 960px;
+}
+
+.icon-link > .bi {
+  width: .75em;
+  height: .75em;
+}
+
+.card-body{
+  text-align: justify;
+}
+
+.desc{
+  text-align: justify;
+}
+
+.card-body button{
+  margin-top: 50px;
+}
+
+.btn-hover:hover {
+  background-color: #6258A6;
+  font-size: x-large;
+  transition: all 0.5s ease-in-out;
+}
+
+.flex-equal > * {
+  flex: 1;
+}
+
+.card-desc {
+  display: none;
+}
+
+.card:hover .card-desc {
+  text-align: center;
+  display: block;
+}
+
+#detail {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 50px;
+  padding: 20px;
+  background-color: #1e6125;
+  box-shadow: 14px 13px 7px 0px rgba(0,0,0,0.41) inset;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
